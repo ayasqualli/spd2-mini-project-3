@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task Manager</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-</head>
-<body>
-    <header>
-        <div class="page-name"></div>
-        <div></div>
-    </header>
-
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div id="time"></div>
+      <div class="task"></div>
+      <div class="add">
+        <ul class="task-list">
+          <!-- <li>
+            <form id="add-form">
+              <input type="checkbox" id="task-reminder-id-0" />
+              <input type="number" min="0" max="23" value="0" id="hour-0" />
+              <span style="color: black; margin-right: 2px">:</span>
+              <input type="number" min="0" max="60" value="0" id="minute-0" />
+              <input id="add-text-0" type="text" placeholder="Add your task note" />
+              <button id="delete-0" class="fa fa-trash delete"></button>
+            </form>
+          </li> -->
+        </ul>
+        <button class="fa fa-tasks" id="add-button">Add A task</button>
+      </div>
+    </div>
     <footer>
-        <a href="https://github.com/ayasqualli/spd2-mini-project-1"
-          >Source code Repository</a
-        >
-        <p>SPD2-S4</p>
-        <p>
-          Questions generated from
-          <span
-            ><a href="https://opentdb.com/api_config.php">Open Trivia DB</a></span
-          >
-        </p>
-        <p>
-          &copy; 2025 Made with ❤️ by Aya SQUALLI HOUSSAINI. All rights reserved.
-        </p>
-      </footer>
-</body>
+      <a href="https://github.com/ayasqualli/spd2-mini-project-3"
+        >Source code Repository</a
+      >
+      <p>SPD2-S4</p>
+      <p>
+        &copy; 2025 Made with ❤️ by Aya SQUALLI HOUSSAINI. All rights reserved.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
